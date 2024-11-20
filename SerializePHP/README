@@ -1,0 +1,11 @@
+# To build and work with this as a container, run these:
+
+docker build -t php-serialize .
+docker run -it php-serialize /bin/sh
+
+# Remember to use your docker commands to check on things, for example:
+
+docker container ls -a
+docker image ls 
+docker rm "container_id"
+docker rmi "image_id"
